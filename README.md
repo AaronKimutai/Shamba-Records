@@ -1,4 +1,4 @@
-````
+
 # Shamba Records System
 
 Shamba Records System is a full-stack farm management platform designed to help administrators and field agents manage agricultural records efficiently.
@@ -77,4 +77,4 @@ npm start
 ## Author
 
 Aaron Kimutai
-````
+

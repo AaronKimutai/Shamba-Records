@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema({
     role: {
         type: String,
         enum: ['admin', 'field agent'],
-        set: (value) => value.toLowerCase(),
+        set: (value) => value? value.toLowerCase(): value,
         required: true
     }
 });

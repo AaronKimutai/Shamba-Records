@@ -16,7 +16,7 @@ const fieldSchema = new mongoose.Schema({
     currentStage: {
         type: String,
         enum: ['planted', 'growing', 'ready', 'harvested'],
-        set: (value) => value.toLowerCase(),
+        set: (value) => value? value.toLowerCase(): value,
         required: true
     },
     fieldAgent: {
@@ -29,7 +29,8 @@ const fieldSchema = new mongoose.Schema({
     },
     fieldStatus: {
         type: String,
-        enum: ['Active', 'AtRisk', 'Completed'],
+        enum: ['active', 'atrisk', 'completed'],
+        set: (value) => value? value.toLowerCase(): value,
         default: null
     }
 });

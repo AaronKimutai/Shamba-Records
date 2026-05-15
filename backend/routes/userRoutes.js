@@ -2,14 +2,15 @@ const {registerUser, loginUser, getUsers, updateUser} = require('../controllers/
 const authMiddleware = require('../middleware/authMiddleware');
 const express = require('express');
 const router = express.Router();
+const {userCreationValidation, userUpdateValidation} = require('../middleware/expressValidator');
 
 // register user
-router.post('/register', registerUser);
+router.post('/register', userCreationValidation, registerUser);
 // login user 
 router.post('/login', loginUser);
 // get users
 router.get('/',  getUsers);
 // update user
-router.put('/:id', authMiddleware, updateUser);
+router.put('/:id', authMiddleware, userUpdateValidation, updateUser);
 
 module.exports = router;

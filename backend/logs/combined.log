@@ -1,0 +1,40 @@
+{"level":"info","message":"Server is running on PORT:3000","timestamp":"2026-05-15T10:25:55.223Z"}
+{"level":"info","message":"Mongodb connection sucessful","timestamp":"2026-05-15T10:25:55.279Z"}
+{"level":"error","message":"jwt expired","stack":"TokenExpiredError: jwt expired\n    at C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at authMiddleware (C:\\Users\\aaron\\shambarecords\\backend\\middleware\\authMiddleware.js:17:28)\n    at Layer.handleRequest (C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\aaron\\shambarecords\\backend\\node_modules\\router\\index.js:295:15","timestamp":"2026-05-15T10:26:30.026Z"}
+{"level":"warn","message":"Unauthorized field detail update attempt by user aaron@gmail.com","timestamp":"2026-05-15T10:26:47.784Z"}
+{"level":"warn","message":"Unauthorized field detail update attempt by user aaron@gmail.com","timestamp":"2026-05-15T10:46:19.131Z"}
+{"level":"info","message":"Server is running on PORT:3000","timestamp":"2026-05-15T10:46:47.050Z"}
+{"level":"info","message":"Mongodb connection sucessful","timestamp":"2026-05-15T10:46:47.117Z"}
+{"level":"warn","message":"Unauthorized field detail update attempt by user aaron@gmail.com","timestamp":"2026-05-15T10:47:01.173Z"}
+{"level":"info","message":"Server is running on PORT:3000","timestamp":"2026-05-15T10:48:39.325Z"}
+{"level":"error","message":"Invalid scheme, expected connection string to start with \"mongodb://\" or \"mongodb+srv://\"","stack":"MongoParseError: Invalid scheme, expected connection string to start with \"mongodb://\" or \"mongodb+srv://\"","timestamp":"2026-05-15T10:48:39.340Z"}
+{"level":"info","message":"Server is running on PORT:3000","timestamp":"2026-05-15T10:50:13.396Z"}
+{"level":"info","message":"Mongodb connection sucessful","timestamp":"2026-05-15T10:50:13.427Z"}
+{"level":"warn","message":"Unauthorized field detail update attempt by user aaron@gmail.com","timestamp":"2026-05-15T10:50:23.651Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T10:51:45.208Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T10:51:45.302Z"}
+warn: Unauthorized field detail update attempt by user aaron@gmail.com {"timestamp":"2026-05-15T10:52:03.754Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T10:57:38.443Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T10:57:38.572Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T11:12:12.311Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T11:12:12.415Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T11:18:01.522Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T11:18:01.580Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T11:23:40.753Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T11:23:40.796Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T11:30:49.964Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T11:30:50.012Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T11:31:52.351Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T11:31:52.438Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T11:32:56.340Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T11:32:56.375Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T11:38:08.832Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T11:38:08.873Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T11:40:17.700Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T11:40:17.737Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T13:44:45.682Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T13:44:45.762Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T14:11:29.937Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T14:11:30.043Z"}
+info: Server is running on PORT:3000 {"timestamp":"2026-05-15T14:16:55.172Z"}
+info: Mongodb connection sucessful {"timestamp":"2026-05-15T14:16:55.258Z"}
